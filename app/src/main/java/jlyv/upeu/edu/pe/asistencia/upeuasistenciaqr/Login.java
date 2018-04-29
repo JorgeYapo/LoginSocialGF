@@ -43,8 +43,8 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
                 .build();
 
         signInButton = (SignInButton) findViewById(R.id.signInButton);
-//        signInButton.setSize(SignInButton.SIZE_WIDE);
-//        signInButton.setColorScheme(SignInButton.COLOR_DARK);
+        signInButton.setSize(SignInButton.SIZE_WIDE);
+        signInButton.setColorScheme(SignInButton.COLOR_DARK);
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

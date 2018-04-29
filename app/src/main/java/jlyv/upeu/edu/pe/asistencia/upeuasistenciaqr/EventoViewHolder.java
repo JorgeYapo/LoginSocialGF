@@ -9,7 +9,7 @@ import jlyv.upeu.edu.pe.asistencia.to.EventoTO;
 
 public class EventoViewHolder extends RecyclerView.ViewHolder {
 
-    private TextView txtNombre,txtLugar;
+    private TextView txtNombre,txtFecha,txtHora;
 
     private EventoTO eventoTO;
 
@@ -17,15 +17,15 @@ public class EventoViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
 
         this.txtNombre=(TextView)itemView.findViewById(R.id.txtNombre);
-        this.txtLugar=(TextView)itemView.findViewById(R.id.txtHora);
-
+        this.txtFecha=(TextView)itemView.findViewById(R.id.txtFecha);
+        this.txtHora=(TextView)itemView.findViewById(R.id.txtHora);
     }
 
     public void setEvento(EventoTO eventoy){
 
         this.eventoTO=eventoy;
         this.txtNombre.setText(eventoTO.getNombreevento());
-        this.txtLugar.setText(eventoTO.getLugarevento());
-
+        this.txtFecha.setText(eventoTO.getFecha());
+        this.txtHora.setText(eventoTO.getHorainicio());
     }
 }
