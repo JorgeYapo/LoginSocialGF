@@ -1,8 +1,10 @@
 package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -82,17 +84,18 @@ public class ActivityPrincipal extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        FragmentManager fragmentManager =getSupportFragmentManager();
+        if (id == R.id.btnle) {
+            fragmentManager.beginTransaction().replace(R.id.contenedor, new ReportFragment()).commit();
+        } else if (id == R.id.btnra) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.btnla) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.btnlu) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.btnc) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.btns) {
 
         }
 

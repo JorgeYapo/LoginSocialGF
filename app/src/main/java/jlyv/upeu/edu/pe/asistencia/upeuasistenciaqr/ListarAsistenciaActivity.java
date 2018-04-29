@@ -1,5 +1,5 @@
-package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
-
+//package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
+//
 //import android.os.Bundle;
 //import android.support.v7.app.AppCompatActivity;
 //import android.widget.ListView;

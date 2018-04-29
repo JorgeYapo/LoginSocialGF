@@ -1,5 +1,5 @@
-package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
-
+//package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
+//
 //import android.os.Bundle;
 //import android.support.v7.app.AppCompatActivity;
 //import android.util.Log;
@@ -9,6 +9,7 @@ package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
 //
 //import java.util.List;
 //
+//import jlyv.upeu.edu.pe.asistencia.R;
 //import retrofit2.Call;
 //import retrofit2.Callback;
 //import retrofit2.Response;

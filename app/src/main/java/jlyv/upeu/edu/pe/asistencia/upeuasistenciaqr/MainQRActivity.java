@@ -1,5 +1,5 @@
-package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
-
+//package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
+//
 //import android.content.Context;
 //import android.content.Intent;
 //import android.content.SharedPreferences;
@@ -11,11 +11,10 @@ package jlyv.upeu.edu.pe.asistencia.upeuasistenciaqr;
 //import android.widget.Button;
 //import android.widget.TextView;
 //
-//import com.google.zxing.Result;
+//import jlyv.upeu.edu.pe.asistencia.R;
+//import jlyv.upeu.edu.pe.asistencia.dao.AsistenciaDao;
+//import jlyv.upeu.edu.pe.asistencia.dao.EventoDao;
 //
-//import me.dm7.barcodescanner.zxing.ZXingScannerView;
-//import upeu.edu.pe.dao.AsistenciaDao;
-//import upeu.edu.pe.dao.EventoDao;
 //
 //public class MainQRActivity extends AppCompatActivity {
 //

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "573491177832",
+    "firebase_url": "https://asistencia-89b73.firebaseio.com",
+    "project_id": "asistencia-89b73",
+    "storage_bucket": "asistencia-89b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573491177832:android:fcb59b3a9ef5c3fb",
+        "android_client_info": {
+          "package_name": "jlyv.upeu.edu.pe.asistencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573491177832-d1djljhl393237ukcseqnbru677pjkv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jlyv.upeu.edu.pe.asistencia",
+            "certificate_hash": "5ed0a4e9693713c5031514a2f2661e369292f509"
+          }
+        },
+        {
+          "client_id": "573491177832-i8fi4vf17up9emb0hp23bop2aotrj8kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfRxFsc_o0ZgPp_Q3ags3f8CFGdteWplI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573491177832-i8fi4vf17up9emb0hp23bop2aotrj8kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
